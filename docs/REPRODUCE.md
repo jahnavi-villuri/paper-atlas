@@ -44,7 +44,7 @@ year's papers next cycle re-embeds only those, not the full corpus.
 
 ## 6. Build + ship (local)
 
-    uv run python build_frontend.py   # -> paper_atlas_map.html, self-contained
+    uv run python build_frontend.py   # -> index.html, self-contained
     # host: GitHub Pages, or any static file server. No backend, no GPU at
     # view-time; see conversation notes: build offline, serve static forever.
 
